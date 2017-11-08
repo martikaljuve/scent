@@ -1,4 +1,5 @@
 --reporter dot
 --check-leaks
 --ui bdd
---compilers coffee:coffee-script/register
+--globals requestAnimationFrame,cancelAnimationFrame
+--require coffeescript/register

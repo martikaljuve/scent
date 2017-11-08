@@ -82,10 +82,10 @@ describe 'Entity', ->
 			toThrow 'object', -> method {}
 
 		it 'passes the `instanceof`', ->
-		    expect(Entity()).to.be.an.instanceof Entity
+			expect(Entity()).to.be.an.instanceof Entity
 
 		it 'passes `Entity.prototype.isPrototypeOf` check', ->
-		    expect(Entity.prototype.isPrototypeOf Entity()).to.be.true
+			expect(Entity.prototype.isPrototypeOf Entity()).to.be.true
 
 		it 'responds to add method', ->
 			expect(@entity).to.respondTo 'add'

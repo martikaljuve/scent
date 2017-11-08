@@ -11,11 +11,11 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.coffee$/, loader: "babel!coffee" },
+			{ test: /\.coffee$/, loader: "babel-loader!coffee-loader" },
 		],
 	},
 	devtool: 'inline-source-map',
 	resolve: {
-		extensions: ['', '.coffee', '.js'],
+		extensions: ['.coffee', '.js'],
 	},
 }

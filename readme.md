@@ -42,13 +42,11 @@ There is notation for variables holding known types defined by this framework. A
 
 ## Installation
 
-You can install Scent using NPM as follows: 
+You can install Scent using NPM as follows:
 
 ```bash
 	npm install -S scent
 ```
-
-In any environment supporting CommonJS modules, you can just use `require('scent')` to access framework stored in the _lib_ folder. In case you want to use ES6 compatible sources or perhaphs use your own transpiler, simply do `require('scent/es6')` instead.
 
 ### Browser support
 

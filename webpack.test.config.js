@@ -11,7 +11,7 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.coffee$/, loader: "babel-loader!coffee-loader" },
+			{ test: /\.coffee$/, loader: "coffee-loader" },
 		],
 	},
 	devtool: 'inline-source-map',
